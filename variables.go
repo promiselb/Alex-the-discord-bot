@@ -43,7 +43,7 @@ func (cmd *Command) Log(s string) {
 // Discord things variables.
 var (
 
-	// The application token from https://discord.com/developers/applications/977605520129138748/bot.
+	// The application token from https://discord.com/developers/applications.
 	Token string
 
 	// The command prefix.
