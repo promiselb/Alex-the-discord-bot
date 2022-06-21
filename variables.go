@@ -44,12 +44,12 @@ func (cmd *Command) Log(s string) {
 var (
 
 	// The application token from https://discord.com/developers/applications/977605520129138748/bot.
-	Token string = "OTc3NjA1NTIwMTI5MTM4NzQ4.G5-f0c.zzPewi5eDMwX7ntPFX6_aEhGSGARwN9P35VfC0"
+	Token string
 
 	// The command prefix.
 	CommandPrefix string = "$"
 
-	// The id of BFF's server.
+	// The id of BFF's server. Which's my server :)
 	MyServerID = "863540139032707082"
 )
 
