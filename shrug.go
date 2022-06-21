@@ -17,6 +17,7 @@ func ShrugfHandler(s *GG.Session, m *GG.MessageCreate) {
 	}
 }
 
+// used send a new message to the same channel wtih ¯\_(ツ)_/¯ at the end.
 func shrugProcess(s *GG.Session, m *GG.MessageCreate) {
 	var ss string
 
